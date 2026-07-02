@@ -212,18 +212,6 @@ graph LR
 
 KernelPatch → you're operating at the deepest level.
 
-## Projects That Inspired This
-
-| Project | Stars | What It Does | Link |
-|---------|-------|-------------|------|
-| **LSPosed** | 24k | Xposed framework for Android | [LSPosed/LSPosed](https://github.com/LSPosed/LSPosed) |
-| **KernelPatch** | 1.4k | Kernel patching without source | [bmax121/KernelPatch](https://github.com/bmax121/KernelPatch) |
-| **Frida** | 17k+ | Dynamic instrumentation toolkit | [frida/frida](https://github.com/frida/frida) |
-| **Magisk** | 48k+ | Android root solution | [topjohnwu/Magisk](https://github.com/topjohnwu/Magisk) |
-| **APatch** | 5k+ | Kernel-based Android root | [bmax121/APatch](https://github.com/bmax121/APatch) |
-| **jadx** | 43k+ | DEX to Java decompiler | [skylot/jadx](https://github.com/skylot/jadx) |
-| **RePairip** | 68★ | Android repair tool | [ispointer/RePairip](https://github.com/ispointer/RePairip) |
-| **Dex2cxx** | 16★ | DEX to C++ converter | [ispointer/Dex2cxx](https://github.com/ispointer/Dex2cxx) |
 
 ## Directory Structure
 
