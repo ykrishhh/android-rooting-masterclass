@@ -300,23 +300,9 @@ If you've found a technique that works, share it. This guide is community-driven
 
 This is for **educational and authorized security testing only**. Don't modify devices you don't own. Don't use this for malicious purposes. I built this to learn and to help others learn — not to enable abuse.
 
+
 ## Credits
 
 Built by [ykrishhh](https://github.com/ykrishhh) · Security Researcher & Developer
 
-Big thanks to:
-- [ispointer](https://github.com/ispointer) — his work on Android reverse engineering and kernel bridge analysis directly inspired the Layer 4 section
-- [LSPosed team](https://github.com/LSPosed) — rebuilt Xposed for the modern Android stack
-- [KernelPatch contributors](https://github.com/bmax121/KernelPatch) — proved you don't need kernel source to patch the kernel
-
 *Contact: [krishy2122@gmail.com](mailto:krishy2122@gmail.com) · [Twitter @harry6ez](https://twitter.com/harry6ez) · [Telegram @harry6e](https://t.me/harry6e)*
-
----
-
-<div align="center">
-
-*"The quieter you become, the more you can hear."*
-
-</div>
-
-<!-- SEO Keywords: android-rooting, lsposed, kernelpatch, frida, xposed, android-hooking, kernel-hooking, selinux-bypass, reverse-engineering, android-security, dex-editing, smali, zygisk, magisk, apatch -->
