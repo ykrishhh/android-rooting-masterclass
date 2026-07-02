@@ -1,0 +1,80 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 400" font-family="monospace">
+  <rect width="800" height="400" fill="#0a0a0f"/>
+  
+  <text x="400" y="35" text-anchor="middle" fill="#e8e8ed" font-size="18" font-weight="bold">Tool Comparison Matrix</text>
+  
+  <!-- Header -->
+  <rect x="30" y="55" width="180" height="35" rx="4" fill="#1a1a1a" stroke="#333" stroke-width="1"/>
+  <text x="120" y="78" text-anchor="middle" fill="#666" font-size="11">Feature</text>
+  <rect x="220" y="55" width="180" height="35" rx="4" fill="#0a1a0a" stroke="#6bcb77" stroke-width="1"/>
+  <text x="310" y="78" text-anchor="middle" fill="#6bcb77" font-size="11" font-weight="bold">Frida</text>
+  <rect x="410" y="55" width="180" height="35" rx="4" fill="#1a1a0a" stroke="#ffd93d" stroke-width="1"/>
+  <text x="500" y="78" text-anchor="middle" fill="#ffd93d" font-size="11" font-weight="bold">LSPosed</text>
+  <rect x="600" y="55" width="180" height="35" rx="4" fill="#1a0a0a" stroke="#ff6b6b" stroke-width="1"/>
+  <text x="690" y="78" text-anchor="middle" fill="#ff6b6b" font-size="11" font-weight="bold">KernelPatch</text>
+  
+  <!-- Rows -->
+  <rect x="30" y="100" width="180" height="35" rx="4" fill="#111"/>
+  <text x="120" y="123" text-anchor="middle" fill="#888" font-size="10">Hook Level</text>
+  <rect x="220" y="100" width="180" height="35" rx="4" fill="#0a1a0a" opacity="0.5"/>
+  <text x="310" y="123" text-anchor="middle" fill="#6bcb77" font-size="10">User-space</text>
+  <rect x="410" y="100" width="180" height="35" rx="4" fill="#1a1a0a" opacity="0.5"/>
+  <text x="500" y="123" text-anchor="middle" fill="#ffd93d" font-size="10">Framework (ART)</text>
+  <rect x="600" y="100" width="180" height="35" rx="4" fill="#1a0a0a" opacity="0.5"/>
+  <text x="690" y="123" text-anchor="middle" fill="#ff6b6b" font-size="10">Kernel</text>
+  
+  <rect x="30" y="145" width="180" height="35" rx="4" fill="#111"/>
+  <text x="120" y="168" text-anchor="middle" fill="#888" font-size="10">Survives Reboot</text>
+  <rect x="220" y="145" width="180" height="35" rx="4" fill="#0a1a0a" opacity="0.5"/>
+  <text x="310" y="168" text-anchor="middle" fill="#ff6b6b" font-size="10">No</text>
+  <rect x="410" y="145" width="180" height="35" rx="4" fill="#1a1a0a" opacity="0.5"/>
+  <text x="500" y="168" text-anchor="middle" fill="#6bcb77" font-size="10">Yes</text>
+  <rect x="600" y="145" width="180" height="35" rx="4" fill="#1a0a0a" opacity="0.5"/>
+  <text x="690" y="168" text-anchor="middle" fill="#6bcb77" font-size="10">Yes</text>
+  
+  <rect x="30" y="190" width="180" height="35" rx="4" fill="#111"/>
+  <text x="120" y="213" text-anchor="middle" fill="#888" font-size="10">Performance</text>
+  <rect x="220" y="190" width="180" height="35" rx="4" fill="#0a1a0a" opacity="0.5"/>
+  <text x="310" y="213" text-anchor="middle" fill="#ffd93d" font-size="10">Moderate</text>
+  <rect x="410" y="190" width="180" height="35" rx="4" fill="#1a1a0a" opacity="0.5"/>
+  <text x="500" y="213" text-anchor="middle" fill="#6bcb77" font-size="10">Low</text>
+  <rect x="600" y="190" width="180" height="35" rx="4" fill="#1a0a0a" opacity="0.5"/>
+  <text x="690" y="213" text-anchor="middle" fill="#6bcb77" font-size="10">Minimal</text>
+  
+  <rect x="30" y="235" width="180" height="35" rx="4" fill="#111"/>
+  <text x="120" y="258" text-anchor="middle" fill="#888" font-size="10">Detection</text>
+  <rect x="220" y="235" width="180" height="35" rx="4" fill="#0a1a0a" opacity="0.5"/>
+  <text x="310" y="258" text-anchor="middle" fill="#ff6b6b" font-size="10">Easy</text>
+  <rect x="410" y="235" width="180" height="35" rx="4" fill="#1a1a0a" opacity="0.5"/>
+  <text x="500" y="258" text-anchor="middle" fill="#ffd93d" font-size="10">Moderate</text>
+  <rect x="600" y="235" width="180" height="35" rx="4" fill="#1a0a0a" opacity="0.5"/>
+  <text x="690" y="258" text-anchor="middle" fill="#6bcb77" font-size="10">Hard</text>
+  
+  <rect x="30" y="280" width="180" height="35" rx="4" fill="#111"/>
+  <text x="120" y="303" text-anchor="middle" fill="#888" font-size="10">Language</text>
+  <rect x="220" y="280" width="180" height="35" rx="4" fill="#0a1a0a" opacity="0.5"/>
+  <text x="310" y="303" text-anchor="middle" fill="#6bcb77" font-size="10">JavaScript</text>
+  <rect x="410" y="280" width="180" height="35" rx="4" fill="#1a1a0a" opacity="0.5"/>
+  <text x="500" y="303" text-anchor="middle" fill="#ffd93d" font-size="10">Java</text>
+  <rect x="600" y="280" width="180" height="35" rx="4" fill="#1a0a0a" opacity="0.5"/>
+  <text x="690" y="303" text-anchor="middle" fill="#ff6b6b" font-size="10">C/C++</text>
+  
+  <rect x="30" y="325" width="180" height="35" rx="4" fill="#111"/>
+  <text x="120" y="348" text-anchor="middle" fill="#888" font-size="10">Time to First Hook</text>
+  <rect x="220" y="325" width="180" height="35" rx="4" fill="#0a1a0a" opacity="0.5"/>
+  <text x="310" y="348" text-anchor="middle" fill="#6bcb77" font-size="10">5 min</text>
+  <rect x="410" y="325" width="180" height="35" rx="4" fill="#1a1a0a" opacity="0.5"/>
+  <text x="500" y="348" text-anchor="middle" fill="#ffd93d" font-size="10">30 min</text>
+  <rect x="600" y="325" width="180" height="35" rx="4" fill="#1a0a0a" opacity="0.5"/>
+  <text x="690" y="348" text-anchor="middle" fill="#ff6b6b" font-size="10">2+ hours</text>
+  
+  <!-- Best For -->
+  <rect x="30" y="370" width="180" height="25" rx="4" fill="#111"/>
+  <text x="120" y="388" text-anchor="middle" fill="#888" font-size="10">Best For</text>
+  <rect x="220" y="370" width="180" height="25" rx="4" fill="#0a1a0a" opacity="0.5"/>
+  <text x="310" y="388" text-anchor="middle" fill="#6bcb77" font-size="9">Analysis, testing</text>
+  <rect x="410" y="370" width="180" height="25" rx="4" fill="#1a1a0a" opacity="0.5"/>
+  <text x="500" y="388" text-anchor="middle" fill="#ffd93d" font-size="9">System mods, features</text>
+  <rect x="600" y="370" width="180" height="25" rx="4" fill="#1a0a0a" opacity="0.5"/>
+  <text x="690" y="388" text-anchor="middle" fill="#ff6b6b" font-size="9">Root hiding, deep patches</text>
+</svg>
