@@ -1,24 +1,26 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 200" width="400" height="200">
-  <rect x="0" y="0" width="400" height="200" fill="#0a0a0f"/>
-  <g transform="translate(50, 50)">
-    <path d="M 50 0 L 60 30 L 40 30 Z" fill="#0a0a0f" stroke="#ff0040" stroke-width="2"/>
-    <path d="M 50 0 L 60 30 L 70 60 L 40 60 L 30 30 Z" fill="#0a0a0f" stroke="#ff0040" stroke-width="2"/>
-    <path d="M 60 30 L 70 60" stroke="#ff0040" stroke-width="2"/>
-    <path d="M 40 30 L 30 60" stroke="#ff0040" stroke-width="2"/>
-    <circle cx="50" cy="90" r="20" fill="#0a0a0f" stroke="#ff0040" stroke-width="2"/>
-    <path d="M 50 110 L 60 140 L 40 140 Z" fill="#0a0a0f" stroke="#ff0040" stroke-width="2"/>
-    <line x1="50" y1="120" x2="50" y2="140" stroke="#ff0040" stroke-width="2"/>
-    <line x1="40" y1="130" x2="60" y2="130" stroke="#ff0040" stroke-width="2"/>
-    <path d="M 75 120 L 95 120" stroke="#ff0040" stroke-width="2"/>
-    <path d="M 80 125 L 90 135" stroke="#ff0040" stroke-width="2"/>
-    <path d="M 80 135 L 90 125" stroke="#ff0040" stroke-width="2"/>
-  </g>
-  <text x="220" y="120" font-family="monospace" font-size="30" fill="#ff0040" font-weight="bold">ANDROID ROOT</text>
-  <g transform="translate(100, 150)">
-    <rect x="0" y="0" width="50" height="10" fill="#0a0a0f" stroke="#ff0040" stroke-width="1"/>
-    <rect x="0" y="15" width="30" height="10" fill="#0a0a0f" stroke="#ff0040" stroke-width="1"/>
-    <rect x="0" y="30" width="20" height="10" fill="#0a0a0f" stroke="#ff0040" stroke-width="1"/>
-  </g>
-  <path d="M 150 50 L 200 100" stroke="#ff0040" stroke-width="2" stroke-dasharray="5,5"/>
-  <path d="M 200 100 L 250 50" stroke="#ff0040" stroke-width="2" stroke-dasharray="5,5"/>
+  <rect width="400" height="200" fill="#0a0a0f" rx="12"/>
+  <rect x="1" y="1" width="398" height="198" fill="none" stroke="#ff0040" stroke-opacity="0.2" rx="11"/>
+  <!-- Android head -->
+  <path d="M175 55 Q200 35 225 55" fill="none" stroke="#ff0040" stroke-width="2"/>
+  <!-- Android body -->
+  <rect x="175" y="55" width="50" height="55" rx="5" fill="none" stroke="#ff0040" stroke-width="2"/>
+  <!-- Eyes -->
+  <circle cx="190" cy="70" r="3" fill="#ff0040"/>
+  <circle cx="210" cy="70" r="3" fill="#ff0040"/>
+  <!-- Antennae -->
+  <line x1="188" y1="40" x2="180" y2="30" stroke="#ff0040" stroke-width="1.5"/>
+  <line x1="212" y1="40" x2="220" y2="30" stroke="#ff0040" stroke-width="1.5"/>
+  <!-- Arms -->
+  <line x1="175" y1="70" x2="160" y2="95" stroke="#ff0040" stroke-width="2"/>
+  <line x1="225" y1="70" x2="240" y2="95" stroke="#ff0040" stroke-width="2"/>
+  <!-- Legs -->
+  <line x1="190" y1="110" x2="190" y2="130" stroke="#ff0040" stroke-width="2"/>
+  <line x1="210" y1="110" x2="210" y2="130" stroke="#ff0040" stroke-width="2"/>
+  <!-- Lock (rooting metaphor) -->
+  <rect x="192" y="75" width="16" height="12" rx="2" fill="none" stroke="#ff0040" stroke-width="1.5"/>
+  <path d="M196 75 L196 70 Q200 65 204 70 L204 75" fill="none" stroke="#ff0040" stroke-width="1.5"/>
+  <!-- Text -->
+  <text x="200" y="155" text-anchor="middle" font-family="'Courier New', monospace" font-size="14" fill="#ff0040" font-weight="bold" letter-spacing="1">ANDROID ROOTING</text>
+  <text x="200" y="172" text-anchor="middle" font-family="'Courier New', monospace" font-size="10" fill="#ff0040" fill-opacity="0.5">Masterclass Guide</text>
 </svg>
